@@ -206,7 +206,9 @@ body{
         order: 1;
         height: 100vh;
     }
-
+    header{
+        order: 2;
+    }
     .desktop-img{
         order: 2;
     }
