@@ -135,9 +135,20 @@ body{
     font-size: .75rem;
     color: hsla(360, 93%, 68%, 0.82);
 }
-.error{
+.mini-form .error-input{
+    border: 1px solid var(--Soft-Red);
+}
+.mini-form .error-input:focus{
+    border: 1px solid var(--Soft-Red);
+}
+.error-hide{
     opacity: 0;
-    transition: .4s;
+    transition: opacity .4s;
+}
+.error-show{
+    opacity: 100;
+    transition-duration: .4s;
+    transition-property: opacity;
 }
 
 /* Media Queries */

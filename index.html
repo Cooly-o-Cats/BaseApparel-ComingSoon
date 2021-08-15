@@ -30,13 +30,13 @@
                 <p>Hello fellow shoppers! We’re currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
             </div>
             <div class="mini-form">
-                <form action="" autocomplete="off">
+                <form action="" autocomplete="off" id="mainForm">
                     <input 
                     type="text" 
                     name="email" 
                     placeholder="Email Address" 
                     class="email-input"
-                    required pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
+                    id="emailInput">
                     <input 
                     type="image" 
                     class="submit" 
@@ -44,9 +44,9 @@
                     name="submit" 
                     src="assets/img/icon-arrow.svg">
                     
-                    <img src="assets/img/icon-error.svg" alt="Error Icon" class="error-icon error">
+                    <img src="assets/img/icon-error.svg" alt="Error Icon" class="error-icon error-hide">
                 </form>
-                <p class="error-text error"></p>
+                <p class="error-text error-hide"></p>
             </div>
         </div>
     </main>
