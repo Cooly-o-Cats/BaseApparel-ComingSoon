@@ -98,5 +98,8 @@ form.addEventListener('input', debounce(function (e) {
     if (isFormValid) {
         submitEL.removeAttribute('disabled')
     }
+    else{
+        submitEL.setAttribute('disabled', '')
+    }
 
 }))
