@@ -10,12 +10,14 @@
     <script src="assets/js/script.js" defer></script>
 </head>
 <body>
-    <div class="desktop-bg desktop">
-        <img src="assets/img/bg-pattern-desktop.svg" alt="">
-    </div>
-    <div class="desktop-img desktop">
-        <img src="assets/img/hero-desktop.jpg" alt="A woman wearing one of our new apparel sets">
-    </div>
+    <header>
+        <div class="desktop-bg desktop">
+            <img src="assets/img/bg-pattern-desktop.svg" alt="">
+        </div>
+        <div class="desktop-img desktop">
+            <img src="assets/img/hero-desktop.jpg" alt="A woman wearing one of our new apparel sets">
+        </div>
+    </header>
     <main class="container">
         <div class="logo">
             <img src="assets/img/logo.svg" alt="Our Company Logo">
@@ -30,7 +32,7 @@
                 <p>Hello fellow shoppers! We’re currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
             </div>
             <div class="mini-form">
-                <form action="" autocomplete="off" id="mainForm">
+                <form action="" autocomplete="off" id="mainForm" method="">
                     <input 
                     type="text" 
                     name="email" 
@@ -42,7 +44,8 @@
                     class="submit" 
                     id="submit" 
                     name="submit" 
-                    src="assets/img/icon-arrow.svg">
+                    src="assets/img/icon-arrow.svg"
+                    alt="Submit Button">
                     
                     <img src="assets/img/icon-error.svg" alt="Error Icon" class="error-icon error-hide">
                 </form>
