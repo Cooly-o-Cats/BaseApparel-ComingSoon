@@ -58,4 +58,4 @@ With this project I really wanted to test my **js** skills! One of the things I 
 ## Author
 
 - Frontend Mentor - [@Cooly-o-Cats](https://www.frontendmentor.io/profile/Cooly-o-Cats)
-- Github - [@yCooly-o-Cats](https://github.com/Cooly-o-Cats)
+- Github - [@Cooly-o-Cats](https://github.com/Cooly-o-Cats)
